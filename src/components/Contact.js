@@ -154,11 +154,24 @@ const Contact = () => {
             <h3>
               <a href="tel:+12678153833">(+1) 267-815-3833</a>
             </h3>
+            <p>Email</p>
             <p>
               <a className="fn__link" href="mailto:myzhang@seas.upenn.edu">
               myzhang@seas.upenn.edu
               </a>
             </p>
+            <p>LinkedIn</p>
+            <p>
+              <a className="fn__link" href="https://www.linkedin.com/in/miaoyan-zhang-2961a8145/">
+              https://www.linkedin.com/in/miaoyan-zhang-2961a8145/
+              </a>
+            </p>
+            {/* <p>Address</p>
+            <p>
+              <a className="fn__link" href="mailto:myzhang@seas.upenn.edu">
+              <h3>myzhang@seas.upenn.edu</h3> 
+              </a>
+            </p> */}
           </div>
           {/* /Contact Info */}
         </div>
