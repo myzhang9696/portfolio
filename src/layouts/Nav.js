@@ -57,7 +57,7 @@ const Nav = ({ close, trigger }) => {
             </ul>
           </nav>
           <div className={`nav_footer ${toggle_}`}>
-            <div className="social">
+            {/* <div className="social">
               <ul>
                 <li>
                   <a href="#" target="_blank">
@@ -204,7 +204,7 @@ const Nav = ({ close, trigger }) => {
               >
                 TrendyCoder
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
