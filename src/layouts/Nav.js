@@ -34,7 +34,7 @@ const Nav = ({ close, trigger }) => {
                   Portfolio
                 </a>
               </li>
-              <li style={{ transitionDelay: !trigger ? "0ms" : "1300ms" }}>
+              {/* <li style={{ transitionDelay: !trigger ? "0ms" : "1300ms" }}>
                 <a onClick={() => close()} href="#services">
                   Services
                 </a>
@@ -48,7 +48,7 @@ const Nav = ({ close, trigger }) => {
                 <a onClick={() => close()} href="#news">
                   News &amp; Tips
                 </a>
-              </li>
+              </li> */}
               <li style={{ transitionDelay: !trigger ? "0ms" : "1300ms" }}>
                 <a onClick={() => close()} href="#contact">
                   Contact
